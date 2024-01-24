@@ -1,0 +1,26 @@
+---
+title: "Rmarkdown - Maxximus"
+---
+
+# Markdown
+
+Hi folks
+
+The chunk of code below adds 2 & 5 together
+
+step 1
+
+Load data into R
+
+
+```{r echo=FALSE}
+library(tidyverse)
+f<- "data-wrangling.csv"
+d<- read_csv(f, colnames(TRUE))
+```
+
+Step 2
+select columns of interest
+
+``` {r}
+data
